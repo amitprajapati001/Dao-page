@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Poppins";
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 4fr 1fr;
+  height: 12vh;
+  width: 100%;
+  align-items: center;
+  background: black;
+  color: white;
+  /* overflow: auto; */
+}
+
+.grow-list .list {
+  display: flex;
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+.grow-list .list .list-item {
+  /* background: green; */
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15px;
+}
+
+.line {
+  border-left: 1px solid #808080;
+  height: 50px;
+}
+
+.navbar div img {
+  height: 35px;
+  margin-left: 30px;
+}
+
+.navbar .button-small {
+  padding: 5px 20px;
+  border-radius: 5px;
+  background: #ba0cc5;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 0px;
+}
+
+.grow-list .list li:first-child::after {
+  content: "⌄";
+  margin-left: 10px;
+}
+.container {
+  background-image: url("./assets/bg.png");
+  width: 1349px;
+  height: 700px;
+  background-size: 100% 100%;
+}
+
+.hero {
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero .hero-heading {
+  font-size: 60px;
+  padding: 0 300px;
+  color: #ffffff;
+}
+h1 {
+  /* background: gray; */
+  /* margin: 0 200px; */
+  padding: 10px;
+}
+
+p {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.button-large {
+  padding: 15px 20px;
+  border-radius: 5px;
+  background: #ba0cc5;
+  color: #ffffff;
+  border: none;
+  margin-top: 40px;
+  font-family: "Montserrat";
+  font-size: 25px;
+}
